@@ -1,6 +1,6 @@
 /*The main colors:
 all page background-color: #FFFDD5;
-navigation aan a href links color: #456634;
+navigation and a href links color: #456634;
  copyright and links color: #663429
  h1, h3, home-text, footer content, about us paragraph color: #EBE5B4
  background-color: #293a48 (footer)
@@ -9,7 +9,8 @@ navigation aan a href links color: #456634;
  */
 
 
- /*Home page css*/
+/*Home page css*/
+
 
 /*@font-face {
   font-family: 'MyWebFont';
@@ -17,308 +18,335 @@ navigation aan a href links color: #456634;
         url('myfont.woff') format('woff');
         }*/
 
-        body {
-            background-color: #FFFDD5;
-        }
-
-        a {
-            color: #663429;
-        }
-
-        a:hover {
-            color: #456634;
-        }
-
-        .navigation-links:hover {
-            color: #456634;
-        }
-
-        .logo {
-            display: block;
-            margin: 0 auto;
-        }
-
-        .navigation {
-         text-align: center;
-         list-style: none;
-         font-size: 38px;
-         font-family: verdana sans-serif;
-         padding-top: 3%;
-         padding-left: 0;
-        }
-
-        .images-list-head {
-         top: 50%;
-         padding-top: 5%;
-         display: inline;  
-         display:inline-block;
-         position: center;
-     }
-
-     .image-name {
-        display: inline;
-        padding-top: 10%;
-        padding: 25px;
-        padding-left: 25px;
-        align-items: center;
-        border: 20px;
-    }
-
-    .second-images-list {
-        display: inline;
-        padding-top: 10%;
-        padding: 25px;
-        padding-left: 25px;
-        align-items: center;
-        border: 20px;
-    }
-
-    h1 {
-        text-align: center;
-        top: 0;
-        left: 50%;
-        padding: 5%;
-        font-family: sans-serif;
-        font-size: 70px;
-        color: #EBE5B4;
-    }
-
-    h2 {
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    h3 {
-        color: #EBE5B4;
-    }
-
-    p {
-        display: inline-block;
-        margin: auto;
-        display: block;
-    }
-
-    .background {
-        background-image: url(../img/dog1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        padding-bottom: none;
-        position: relative;
-        background-image-size: 100%;
-        padding-right: 0;
-        right: 0;
-    }
-
-    .overlay {
-     background-color: rgba(0,0,0,.2);
-     background-size: cover;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     z-index: 10;
-     padding-bottom: 5%;
- }
-
-
- .container-fluid {
-    text-align: center;
-    padding: 0;
-    color: #663429;
+/*#page-wrap {
+  width: 1500px;
+  height: 1500px;
+  margin: 0 auto;
+  position: relative;
+}*/
+body {
+  background-color: #FFFDD5;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-.img-thumbnail, .thumbnail {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    margin: 0;
-    padding: 0;
+a {
+  color: #663429;
+}
+a:hover {
+  color: #456634;
+}
+.navigation-links:hover {
+  color: #456634;
+}
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+.navigation {
+  text-align: center;
+  list-style: none;
+  font-size: 38px;
+  font-family: verdana sans-serif;
+  padding-top: 3%;
+  padding-left: 0;
+}
+.images-list-head {
+  top: 50%;
+  padding-top: 5%;
+  display: inline;
+  display: inline-block;
+  position: center;
+}
+.image-name {
+  display: inline;
+  padding-top: 10%;
+  padding: 25px;
+  padding-left: 25px;
+  align-items: center;
+  border: 20px;
+}
+.second-images-list {
+  display: inline;
+  padding-top: 10%;
+  padding: 25px;
+  padding-left: 25px;
+  align-items: center;
+  border: 20px;
+}
+h1 {
+  text-align: center;
+  top: 0;
+  left: 50%;
+  padding: 5%;
+  font-family: sans-serif;
+  font-size: 70px;
+  color: #EBE5B4;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+  color: #663429;
+  padding-bottom: 20px;
+}
+h3 {
+  color: #EBE5B4;
 }
 
-.thumbnail {
-    background-color: inherit;
-    border: none;
-    border-radius: 0;
-    padding-top: 3%;
+h4 {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  font-family: sans-serif;
+  font-weight: bold;
 }
-
-.home-text {
-/* text-align: center;
- color: #EBE5B4;
- margin-left: 10%;
- margin-right: 10%;
- font-size: 30px;
- max-width: 100%;
- position: static;
- max-width: 100%;*/
-     padding-top: 0 auto;
+p {
+  display: inline-block;
   margin: auto;
   display: block;
-  left: 1000px;
-  font-style: normal;
-  padding-bottom: 0;
-  font-size: 35px;
-  color: #EBE5B4;
   text-align: center;
 }
-.home-page-img {
-    padding-top: 7%;
-    padding-bottom: 0;
+.background {
+  background-image: url(../img/dog1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: none;
+  position: relative;
+  background-image-size: 100%;
+  padding-right: 0;
+  right: 0;
+  overflow-x: hidden;
 }
-
-.img-responsive {
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
+.overlay {
+  background-color: rgba(0, 0, 0, .2);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding-bottom: 5%;
 }
-
-.mdb-skin-custom .page-footer {
-    background-color: #293a48;
+.container-fluid {
+  text-align: center;
+  padding: 0;
+  color: #663429;
 }
-.documentation footer {
-    padding-left: 0;
+.img-thumbnail, .thumbnail {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
 }
-@media (max-width: 1440px)
-.fixed-sn .double-nav, .fixed-sn footer, .fixed-sn main {
-    padding-left: 0;
+.thumbnail {
+  background-color: inherit;
+  border: none;
+  border-radius: 0;
+  padding-top: 3%;
 }
-.fixed-sn .double-nav, .fixed-sn footer, .fixed-sn main {
-    padding-left: 240px;
-}
-footer.page-footer {
-    margin-top: 20px;
-    padding-top: 20px;
-    background-color: #3E4551;
-    /*color: #fff;*/
-    float: left;
-    position: relative;
-    width: 100%;
-    bottom: 0;
-}
-
-.footer-content{
-    font-size: 15px;
-    color: #663429;
-}
-
-.footer-content:hover {
-    color: #456634;
-
-}
-
-.blue {
-    background-color: #BD9E89!important;
-}
-
-.page-footer .footer-copyright {
-    overflow: hidden;
-    height: 50px;
-    line-height: 50px;
-    color: rgba(255,255,255,.8);
-    background-color: rgba(0,0,0,.2);
-    text-align: center;
-}
-
-.footer-list {
-    list-style: none;
-    display: inline-block;
-}
-
-.copyright-text {
-    color: #663429;
-}
-
-/*about us page css*/
-
-.about-us-paragraph {
+.home-text {
   padding-top: 0 auto;
   margin: auto;
   display: block;
   left: 1000px;
   font-style: normal;
   padding-bottom: 0;
-  font-size: 35px;
+  font-size: 27px;
   color: #EBE5B4;
   text-align: center;
 }
-
-
-.our-team-list-container {
-    vertical-align: middle
+.home-page-img {
+  padding-top: 2%;
+  padding-bottom: 0;
 }
-
-.our-team-list {
-    display: inline-block;
-    position: center;
-    display: inline-flex;
-}
-
 .img-responsive {
-    margin: 0;
-    padding: 0;
-    width: 60%;
-    margin: auto;
-
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
 }
-.footer-bcg {
-    margin: 0;
-    padding: 0;
-} 
-
-.about-us-bcg {
-   background-image: url(../img/cat1.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   padding-bottom: 10%;
+.blog-post-heading {
+text-align: center;
+margin-top: 5%;
+font-size: 40px;
+color: #663429;
+padding-bottom: 2px;
 }
 
-/*Services*/
-.services-column {
-    display: inline-block;
-    -moz-column-count: 4;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-    list-style: none;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 3%;
-    color: #FFFDD5;
+.mdb-skin-custom .page-footer {
+  background-color: #293a48;
 }
-.services {
-    color: #FFFDD5;
+.documentation footer {
+  padding-left: 0;
+}
+@media (max-width: 1440px) .fixed-sn .double-nav, .fixed-sn footer, .fixed-sn main {
+  padding-left: 0;
+}
+.fixed-sn .double-nav, .fixed-sn footer, .fixed-sn main {
+  padding-left: 240px;
+}
+footer.page-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  background-color: #3E4551;
+  /*color: #fff;*/
+
+  float: left;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
+.footer-content {
+  font-size: 15px;
+  color: #663429;
+}
+.footer-content:hover {
+  color: #456634;
+}
+.blue {
+  background-color: #BD9E89!important;
+}
+.page-footer .footer-copyright {
+  overflow: hidden;
+  height: 50px;
+  line-height: 50px;
+  color: rgba(255, 255, 255, .8);
+  background-color: rgba(0, 0, 0, .2);
+  text-align: center;
+}
+.footer-list {
+  list-style: none;
+  display: inline-block;
+}
+.copyright-text {
+  color: #663429;
 }
 
-.services-background {
-    background-image: url(../img/service-cover.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-}
-.service-paragraph {
-    padding-top: 0 auto;
+/*about us page css*/
+.about-us-paragraph {
   margin: auto;
   display: block;
   left: 1000px;
   font-style: normal;
   padding-bottom: 0;
-  font-size: 35px;
+  font-size: 27px;
   color: #EBE5B4;
   text-align: center;
 }
-
-/*Cats and Dogs webpage*/
-
-.cats-dogs-bcg {
-   background-image: url(../img/cat-dog-bcg.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   padding-bottom: 0%;
+.our-team-list-container {
+  vertical-align: middle
+}
+.our-team-list {
+  display: inline-block;
+  position: center;
+  display: inline-flex;
+}
+.img-responsive {
+  padding: 0;
+  width: 60%;
+  margin: auto;
+}
+.footer-bcg {
+  margin: 0;
+  padding: 0;
+}
+.about-us-bcg {
+  background-image: url(../img/cat1.jpg);
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 10%;
+  padding-right: 0;
+  left: 1000px;
+  z-index: 10;
 }
 
+/*Services*/
+.service-heading {
+  padding: 10%;
+}
+.background-all-service {
+  background-image: url(../img/service-bcg-1.jpg);
+  background-color: #456634;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+  background-size:contain;
+}
+.service-overlay {
+  background-color: hsla(120, 100%, 25%, 0.3);
+    opacity: .5;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  background-size: cover;
+  background-size:contain;
+  content: "";
+  background-repeat: no-repeat;
+}
+
+.services-list {
+  box-sizing: none;
+}
+
+.service-ul-inline {
+  display: inline;
+}
+
+.service-ul {
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+.bs-glyphicons .glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    font-size: 70px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+  .bs-glyphicons .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .bs-glyphicons .glyphicon {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+
+.service-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*Cats and Dogs webpage*/
+.cats-dogs-bcg {
+  background-image: url(../img/cat-dog-bcg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 0%;
+}
 .cats-dogs-paragraph {
-      padding-top: 0 auto;
+  padding-top: 0 auto;
   margin: auto;
   display: block;
   left: 1000px;
@@ -328,3 +356,49 @@ footer.page-footer {
   color: #EBE5B4;
   text-align: center
 }
+
+button {
+  background-color: #456634;
+  color: #EBE5B4;
+  text-align: center;
+}
+
+.my-btn .btn-success{
+  background-color: #456634;
+  color: #EBE5B4;
+}
+.my-btn:hover {
+  background-color: #663429;
+}
+.btn-primary {
+background-image: none;
+}
+
+.animal-name-h3 {
+  color: #663429;
+  text-align: center;
+}
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+
+    @media only screen and (max-width : 480px) {
+.home-text{
+  color: red;
+}
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
