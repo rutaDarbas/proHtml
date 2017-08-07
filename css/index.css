@@ -11,6 +11,7 @@ navigation and a href links color: #456634;
 
 /*Home page css*/
 
+
 /*@font-face {
   font-family: 'MyWebFont';
   src:  url('myfont.woff2') format('woff2'),
@@ -23,6 +24,8 @@ navigation and a href links color: #456634;
   margin: 0 auto;
   position: relative;
 }*/
+
+@import url('https://fonts.googleapis.com/css?family=bangers');
 body {
   background-color: #FFFDD5;
   overflow-x: hidden;
