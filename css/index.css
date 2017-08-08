@@ -11,8 +11,6 @@ navigation and a href links color: #456634;
 
 /*Home page css*/
 
-@import url('https://fonts.googleapis.com/css?family=bangers');
-
 body {
   background-color: #FFFDD5;
   overflow-x: hidden;
@@ -434,7 +432,10 @@ text-shadow: none;
 }
 
 /*Bella webpage  */
-font-size: 30px;
+.bella-paragraph {
+  font-family: 'Tangerine', sans-serif;
+  font-size: 30px;
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
