@@ -12,10 +12,12 @@ font-family: 'Comfortaa', cursive;
 font-family: 'Chewy', cursive;
 font-family: 'Armata', sans-serif;
 font-family: 'Concert One', cursive;
-font-family: 'Lobster', cursive; */
+font-family: 'Lobster', cursive;
+font-family: 'Aclonica', sans-serif; 
+font-family: 'Open Sans', sans-serif;*/
 
 /*Home page css*/
-@import url('https://fonts.googleapis.com/css?family=Armata|Chewy|Comfortaa|Concert+One|Lobster|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Armata|Chewy|Comfortaa|Concert+One|Lobster|Roboto|Aclonica|Open+Sans');
 
 body {
   background-color: #FFFDD5;
@@ -26,9 +28,7 @@ body {
 a {
   color: #663429;
 }
-a:hover {
-  color: #456634;
-}
+
 .navigation-links:hover {
   color: #456634;
 }
@@ -39,45 +39,35 @@ a:hover {
 .navigation {
   text-align: center;
   list-style: none;
-  font-size: 38px;
-  font-family:'Comfortaa', cursive , sans-serif;
+  font-size: 27px;
+  font-family: 'Aclonica', sans-serif;
   padding-top: 3%;
   padding-left: 0;
+  padding-bottom: 3%;
 }
-.images-list-head {
-  top: 50%;
-  padding-top: 5%;
-  display: inline;
-  display: inline-block;
-  position: center;
-}
-.image-name {
-  display: inline;
-  padding-top: 10%;
-  padding: 25px;
-  padding-left: 25px;
-  align-items: center;
-  border: 20px;
-}
-.second-images-list {
-  display: inline;
-  padding-top: 10%;
-  padding: 25px;
-  padding-left: 25px;
-  align-items: center;
-  border: 20px;
-}
-h1 {
+.home-header {
   text-align: center;
   top: 0;
   left: 50%;
   padding: 5%;
-  font-family: 'Roboto', cursive;
+  font-family: 'Aclonica', sans-serif;
   font-size: 70px;
   color: #EBE5B4;
   margin: 0;
-  text-shadow: 1px 1px 1px #000;
 }
+
+.home-paragraph {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  display: block;
+  left: 1000px;
+  font-style: normal;
+  padding-bottom: 0;
+  font-size: 20px;
+  color: #EBE5B4;
+  text-align: center;
+}
+
 h2 {
   text-align: center;
   font-size: 40px;
@@ -96,21 +86,13 @@ h4 {
   font-family: sans-serif;
   font-weight: bold;
 }
-p {
-  display: inline-block;
-  margin: auto;
-  display: block;
-  text-align: center;
-  font-family: 'Comfortaa', cursive;
 
-}
 .background {
   background-image: url(../img/dog1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: none;
   position: relative;
-  background-image-size: 100%;
   padding-right: 0;
   right: 0;
   overflow-x: hidden;
@@ -141,17 +123,7 @@ p {
   border-radius: 0;
   padding-top: 3%;
 }
-.home-text {
-  padding-top: 0 auto;
-  margin: auto;
-  display: block;
-  left: 1000px;
-  font-style: normal;
-  padding-bottom: 0;
-  font-size: 27px;
-  color: #EBE5B4;
-  text-align: center;
-}
+
 .home-page-img {
   padding-top: 2%;
   padding-bottom: 0;
@@ -183,22 +155,23 @@ footer.page-footer {
   margin-top: 20px;
   padding-top: 20px;
   background-color: #3E4551;
-  /*color: #fff;*/
-
   float: left;
   position: relative;
   width: 100%;
   bottom: 0;
 }
+
 .footer-content {
   font-size: 15px;
-  color: #663429;
+  color: #EBE5B4;
 }
-.footer-content:hover {
-  color: #456634;
+
+.footer-text {
+color: #EBE5B4;
 }
+
 .blue {
-  background-color: #BD9E89!important;
+  background-color: #456634!important;
 }
 .page-footer .footer-copyright {
   overflow: hidden;
@@ -213,10 +186,22 @@ footer.page-footer {
   display: inline-block;
 }
 .copyright-text {
-  color: #663429;
+  color: #EBE5B4;
 }
 
 /*about us page css*/
+
+.about-us-header {
+  text-align: center;
+  top: 0;
+  left: 50%;
+  padding: 5%;
+  font-family: 'Roboto', cursive;
+  font-size: 70px;
+  color: #EBE5B4;
+  margin: 0;
+}
+
 .about-us-paragraph {
   margin: auto;
   display: block;
@@ -226,6 +211,7 @@ footer.page-footer {
   font-size: 27px;
   color: #EBE5B4;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 .our-team-list-container {
   vertical-align: middle
@@ -255,9 +241,19 @@ footer.page-footer {
   z-index: 10;
 }
 
-/*Services*/
+/*Services si puslapi dar reikes gerai perkratyti*/
 .service-heading {
   padding: 10%; 
+}
+.services-header {
+  text-align: center;
+  top: 0;
+  left: 50%;
+  padding: 5%;
+  font-family: 'Roboto', cursive;
+  font-size: 70px;
+  color: #EBE5B4;
+  margin: 0;
 }
 .background-all-service {
   background-image: url(../img/service-bcg-1.jpg);
@@ -345,6 +341,18 @@ footer.page-footer {
 }
 
 /*Cats and Dogs webpage*/
+
+.cats-dogs-header{
+  text-align: center;
+  top: 0;
+  left: 50%;
+  padding: 5%;
+  font-family: 'Roboto', cursive;
+  font-size: 70px;
+  color: #EBE5B4;
+  margin: 0;
+}
+
 .cats-dogs-bcg {
   background-image: url(../img/cat-dog-bcg.jpg);
   background-size: cover;
@@ -414,7 +422,7 @@ color: #EBE5B4;
 
 .btn {
 background-color: #456634;
-color: #EBE5B4; 
+color: #E8D600; 
 background-image: none;
 text-shadow: none;
 }
@@ -442,10 +450,34 @@ text-shadow: none;
 }
 
 /*Bella webpage  */
+.bella-heading {
+   padding-top: 3%;
+   padding-bottom: 3%;
+  display: block;
+  font-size: 60px;
+  color:#456634;
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+
+  
+}
 .bella-paragraph {
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color: #663429;
+  text-align: center;
+}
+
+.bella-image {
+  text-align: center;
+  margin: auto;
+  display: block;
+  left: 1000px;
+  font-style: normal;
+  padding-bottom: 0;
+
+  
+  
 }
 
 /* Medium Devices, Desktops */
