@@ -25,8 +25,8 @@ body {
   overflow-y: scroll;
 }
 
-a {
-  color: #663429;
+.navigation-links {
+   color: #663429;
 }
 
 .navigation-links:hover {
@@ -66,26 +66,30 @@ a {
   font-size: 20px;
   color: #EBE5B4;
   text-align: center;
+  width:800px;
+    word-wrap: break-word;
 }
 
-h2 {
-  text-align: center;
+.home-h2 {
+    text-align: center;
   font-size: 40px;
   color: #663429;
   padding-bottom: 20px;
   font-family: 'Lobster', cursive;
 }
-h3 {
-  color: #EBE5B4;
-}
 
-h4 {
+.home-h4 {
   text-align: center;
   padding-bottom: 5%;
   padding-top: 3%;
   font-family: sans-serif;
   font-weight: bold;
 }
+
+/* h3 {
+  color: #EBE5B4;
+} */
+
 
 .background {
   background-image: url(../img/dog1.jpg);
@@ -185,6 +189,18 @@ color: #EBE5B4;
   list-style: none;
   display: inline-block;
 }
+
+.footer-title {
+ color: #EBE5B4;
+}
+
+.footer-partners-list{
+  color: #E8D600;
+}
+
+.footer-partners-list:hover {
+  color: #EBE5B4;
+}
 .copyright-text {
   color: #EBE5B4;
 }
@@ -196,7 +212,7 @@ color: #EBE5B4;
   top: 0;
   left: 50%;
   padding: 5%;
-  font-family: 'Roboto', cursive;
+  font-family: 'Aclonica', sans-serif;
   font-size: 70px;
   color: #EBE5B4;
   margin: 0;
@@ -208,11 +224,32 @@ color: #EBE5B4;
   left: 1000px;
   font-style: normal;
   padding-bottom: 0;
-  font-size: 27px;
+  font-size: 20px;
   color: #EBE5B4;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  width: 800px;
+  word-wrap: break-word;
 }
+
+.about-us-h2 {
+    text-align: center;
+  font-size: 40px;
+  color: #663429;
+  padding-bottom: 20px;
+  font-family: 'Lobster', cursive;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about-us-people-h4{
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 3%;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
 .our-team-list-container {
   vertical-align: middle
 }
@@ -237,7 +274,6 @@ color: #EBE5B4;
   background-repeat: no-repeat;
   padding-bottom: 10%;
   padding-right: 0;
-  left: 1000px;
   z-index: 10;
 }
 
@@ -250,7 +286,7 @@ color: #EBE5B4;
   top: 0;
   left: 50%;
   padding: 5%;
-  font-family: 'Roboto', cursive;
+  font-family: 'Aclonica', sans-serif;
   font-size: 70px;
   color: #EBE5B4;
   margin: 0;
@@ -347,7 +383,7 @@ color: #EBE5B4;
   top: 0;
   left: 50%;
   padding: 5%;
-  font-family: 'Roboto', cursive;
+  font-family: 'Aclonica', sans-serif;
   font-size: 70px;
   color: #EBE5B4;
   margin: 0;
@@ -366,9 +402,19 @@ color: #EBE5B4;
   left: 1000px;
   font-style: normal;
   padding-bottom: 0;
-  font-size: 35px;
+  font-size: 20px;
   color: #EBE5B4;
-  text-align: center
+  text-align: center;
+  width: 800px;
+  word-wrap: break-word;
+}
+
+.cats-dogs-h4{
+  text-align: center;
+  font-size: 40px;
+  color: #663429;
+  padding-bottom: 20px;
+  font-family: 'Lobster', cursive;
 }
 
 button {
@@ -403,7 +449,7 @@ button {
 .contact-us {
 color: #E8D600;
 Font-size: 90px;
-font-family: verdana sans-serif;
+font-family: 'Aclonica', sans-serif;
 }
 
 .contact-paragraph {
