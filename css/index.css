@@ -69,7 +69,6 @@ body {
   width:800px;
     word-wrap: break-word;
 }
-
 .home-h2 {
     text-align: center;
   font-size: 40px;
@@ -86,11 +85,6 @@ body {
   font-weight: bold;
 }
 
-/* h3 {
-  color: #EBE5B4;
-} */
-
-
 .background {
   background-image: url(../img/dog1.jpg);
   background-size: cover;
@@ -100,7 +94,9 @@ body {
   padding-right: 0;
   right: 0;
   overflow-x: hidden;
-}
+  min-width: 200px;
+ }
+
 .overlay {
   background-color: rgba(0, 0, 0, .5);
   background-size: cover;
@@ -334,6 +330,12 @@ color: #EBE5B4;
   list-style: none;
   font-size: 20px;
 }
+.services-link {
+  color: #663429;
+}
+.services-link:hover {
+  color: #456634;
+}
 
 .bs-glyphicons .glyphicon {
     margin-top: 5px;
@@ -431,6 +433,7 @@ button {
 .animal-name-h3 {
   color: #663429;
   text-align: center;
+  font-size: 24px;
 }
 
 /* Contacts */
@@ -455,6 +458,11 @@ font-family: 'Aclonica', sans-serif;
 .contact-paragraph {
   color: #E8D600;
   padding-bottom: 3%;
+}
+
+.social-sites-h3 {
+color: #E8D600;
+  text-align: center;
 }
 label {
   color: #E8D600;
@@ -504,7 +512,6 @@ text-shadow: none;
   color:#456634;
   text-align: center;
   font-family: 'Aclonica', sans-serif;
-
   
 }
 .bella-paragraph {
@@ -512,6 +519,15 @@ text-shadow: none;
   font-size: 20px;
   color: #663429;
   text-align: center;
+   width:800px;
+}
+
+.bella-h2 {
+    text-align: center;
+  font-size: 40px;
+  color: #663429;
+  padding-bottom: 20px;
+  font-family: 'Lobster', cursive;
 }
 
 .bella-image {
@@ -522,28 +538,41 @@ text-shadow: none;
   font-style: normal;
   padding-bottom: 0;
 
-  
-  
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width : 361px) {
+.background {
+  max-height: 100%;
+  max-height: 100%;
+}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+.home-paragraph {
+  max-width: 500px;
+}
+  }
+@media only screen and (max-width : 520px) {
+.home-paragraph {
+  max-width: 350px;
+}
   }
 
-
-    @media only screen and (max-width : 480px) {
-.home-text{
+    @media only screen and (max-width : 420px) {
+.home-paragraph{
   color: red;
 }
     }
 
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
+.home-header {
+  font-size: 40px;
+}
 
+.home-paragraph {
+  max-width: 300px;
+}
     }
