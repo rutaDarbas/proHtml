@@ -215,7 +215,7 @@ color: #EBE5B4;
 }
 
 .about-us-paragraph {
-  margin: auto;
+  margin-left: 3%;
   display: block;
   left: 1000px;
   font-style: normal;
@@ -226,6 +226,7 @@ color: #EBE5B4;
   font-family: 'Roboto', sans-serif;
   width: 800px;
   word-wrap: break-word;
+  margin: 0;
 }
 
 .about-us-h2 {
@@ -238,12 +239,28 @@ color: #EBE5B4;
   margin-bottom: 10px;
 }
 
-.about-us-people-h4{
-  text-align: center;
-  padding-bottom: 5%;
+.about-us-people-h4 {
   padding-top: 3%;
-  font-family: sans-serif;
-  font-weight: bold;
+  font-size: 25px;
+    text-align: center;
+    width: 200px;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+    color: #663429;
+    margin: auto;
+    display: block;
+}
+
+.abut-us-people-p {
+   font-size: 15px;
+    text-align: center;
+    width: 200px;
+    word-wrap: break-word;
+    font-family: 'Roboto', sans-serif;
+    color: #663429;
+    margin: auto;
+    display: block;
+    padding-top: 3%;
 }
 
 .our-team-list-container {
@@ -265,12 +282,14 @@ color: #EBE5B4;
 }
 .about-us-bcg {
   background-image: url(../img/cat1.jpg);
-  min-height: 200px;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 10%;
-  padding-right: 0;
   z-index: 10;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  right: 0;
 }
 
 /*Services si puslapi dar reikes gerai perkratyti*/
@@ -516,10 +535,16 @@ text-shadow: none;
 }
 .bella-paragraph {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
   color: #663429;
-  text-align: center;
-   width:800px;
+    margin: auto;
+    display: block;
+    left: 1000px;
+    font-style: normal;
+    padding-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+    width: 800px;
+    word-wrap: break-word;
 }
 
 .bella-h2 {
