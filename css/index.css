@@ -19,10 +19,12 @@ font-family: 'Open Sans', sans-serif;*/
 /*Home page css*/
 @import url('https://fonts.googleapis.com/css?family=Armata|Chewy|Comfortaa|Concert+One|Lobster|Roboto|Aclonica|Open+Sans');
 
-body {
+html, body {
   background-color: #FFFDD5;
   overflow-x: hidden;
   overflow-y: scroll;
+  margin: 0;
+  padding: 0;
 }
 
 .navigation-links {
@@ -66,8 +68,11 @@ body {
   font-size: 20px;
   color: #EBE5B4;
   text-align: center;
-  width:800px;
     word-wrap: break-word;
+    padding: 10%;
+    padding-top: 3%;
+    width: 100%;
+
 }
 .home-h2 {
     text-align: center;
@@ -208,6 +213,7 @@ color: #EBE5B4;
   top: 0;
   left: 50%;
   padding: 5%;
+  padding-bottom: 2%;
   font-family: 'Aclonica', sans-serif;
   font-size: 70px;
   color: #EBE5B4;
@@ -219,14 +225,17 @@ color: #EBE5B4;
   display: block;
   left: 1000px;
   font-style: normal;
-  padding-bottom: 0;
   font-size: 20px;
   color: #EBE5B4;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  width: 800px;
+  width: 100%;
   word-wrap: break-word;
   margin: 0;
+  float: right;
+  padding: 10%;
+  padding-top: 3%;
+
 }
 
 .about-us-h2 {
@@ -240,27 +249,23 @@ color: #EBE5B4;
 }
 
 .about-us-people-h4 {
-  padding-top: 3%;
+  padding: 3%;
   font-size: 25px;
     text-align: center;
-    width: 200px;
-    word-wrap: break-word;
     font-family: 'Roboto', sans-serif;
     color: #663429;
-    margin: auto;
-    display: block;
+    width: 100%;
 }
 
 .abut-us-people-p {
-   font-size: 15px;
+   font-size: 16px;
     text-align: center;
-    width: 200px;
     word-wrap: break-word;
     font-family: 'Roboto', sans-serif;
     color: #663429;
     margin: auto;
     display: block;
-    padding-top: 3%;
+    padding: 3%;
 }
 
 .our-team-list-container {
@@ -284,12 +289,12 @@ color: #EBE5B4;
   background-image: url(../img/cat1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 10%;
-  z-index: 10;
+  padding-bottom: none;
   position: relative;
-  margin: 0;
-  padding: 0;
+  padding-right: 0;
   right: 0;
+  overflow-x: hidden;
+  min-width: 200px;
 }
 
 /*Services si puslapi dar reikes gerai perkratyti*/
@@ -297,14 +302,19 @@ color: #EBE5B4;
   padding: 10%; 
 }
 .services-header {
-  text-align: center;
-  top: 0;
-  left: 50%;
-  padding: 5%;
-  font-family: 'Aclonica', sans-serif;
-  font-size: 70px;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 90px;
+    color: #EBE5B4;
+    width: 100%;
+    z-index: 10;
+    padding: 3%;
+}
+.service-paragraph {
+  font-size: 27px;
   color: #EBE5B4;
-  margin: 0;
+  width: 100%;
+  padding: 10%;
+  padding-top: 3%;
 }
 .background-all-service {
   background-image: url(../img/service-bcg-1.jpg);
@@ -324,7 +334,6 @@ color: #EBE5B4;
 
 .service-overlay {
   background-color: hsla(115, 90%, 20%, 0.1);
-    opacity: .5;
   background-size: cover;
   top: 0;
   left: 0;
@@ -567,37 +576,49 @@ text-shadow: none;
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 361px) {
-.background {
-  max-height: 100%;
-  max-height: 100%;
-}
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-.home-paragraph {
-  max-width: 500px;
-}
+
+
   }
-@media only screen and (max-width : 520px) {
-.home-paragraph {
-  max-width: 350px;
+@media only screen and (max-width : 480px) {
+.services-header{
+  font-size: 50px;
 }
+.service-paragraph {
+  font-size: 17px;
+}
+}
+
   }
 
     @media only screen and (max-width : 420px) {
-.home-paragraph{
-  color: red;
-}
+
+      .home-paragraph {
+        font-size: 17px;
+      }
+      .home-h4 {
+        font-size: 13px;
+      }
     }
 
     /* Custom, iPhone Retina */
     @media only screen and (max-width : 320px) {
-.home-header {
+       .home-header {
   font-size: 40px;
 }
-
-.home-paragraph {
-  max-width: 300px;
+.about-us-header{
+  font-size: 40px;
+}
+.services-header{
+  font-size: 40px;
+}
+.services-link {
+  font-size: 14px;
+  font-weight: 30%;
 }
     }
+
