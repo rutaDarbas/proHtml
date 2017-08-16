@@ -426,17 +426,15 @@ color: #EBE5B4;
   padding-bottom: 0%;
 }
 .cats-dogs-paragraph {
-  padding-top: 0 auto;
+  padding: 10%;
+  padding-top: 3%;
+  width: 100%;
   margin: auto;
-  display: block;
-  left: 1000px;
   font-style: normal;
   padding-bottom: 0;
   font-size: 20px;
   color: #EBE5B4;
   text-align: center;
-  width: 800px;
-  word-wrap: break-word;
 }
 
 .cats-dogs-h4{
@@ -619,6 +617,12 @@ text-shadow: none;
 .services-link {
   font-size: 14px;
   font-weight: 30%;
+}
+.cats-dogs-header {
+  font-size: 40px;
+}
+.cats-dogs-paragraph {
+  font-size: 13px;
 }
     }
 
