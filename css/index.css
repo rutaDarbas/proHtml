@@ -569,6 +569,25 @@ text-shadow: none;
   padding-bottom: 0;
 
 }
+/* carousel */
+div.c-wrapper{
+  width: 80%; /* for example */
+  margin: auto;
+}
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+margin: auto;
+}
+.carousel-caption {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #EBE5B4; 
+left: 50%;
+}
+
+.right, .left {
+  background-color: #456634;
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 361px) {
