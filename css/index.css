@@ -300,6 +300,7 @@ color: #EBE5B4;
 /*Services si puslapi dar reikes gerai perkratyti*/
 .service-heading {
   padding: 10%; 
+  padding-bottom: 0;
 }
 .services-header {
     font-family: 'Aclonica', sans-serif;
@@ -459,6 +460,7 @@ button {
   font-size: 24px;
 }
 
+
 /* Contacts */
 
 
@@ -582,7 +584,15 @@ margin: auto;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   color: #EBE5B4; 
-left: 50%;
+left: 45%;
+}
+
+.carousel-indicators {
+  height: 100%;
+  margin-top: 10px;
+  border-radius: 0;
+  border: 0;
+ 
 }
 
 .right, .left {
