@@ -404,6 +404,16 @@ color: #EBE5B4;
   max-height: 100%;
 }
 
+.collapsible-header {
+  font-size: 27px;
+}
+.collapsible-body {
+  font-size: 17px;
+  padding: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
 /*Cats and Dogs webpage*/
 
 .cats-dogs-header{
@@ -459,7 +469,6 @@ button {
   text-align: center;
   font-size: 24px;
 }
-
 
 /* Contacts */
 
@@ -527,6 +536,13 @@ text-shadow: none;
   font-weight: bold;
   font-size: 20px;
   color: #456634;
+}
+.modal-content {
+  padding: 20%;
+  background-color: #EBE5B4; 
+  border-radius: 15%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
 }
 
 /*Bella webpage  */

@@ -7,20 +7,25 @@
 
 	<!-- Bootstrap extensions -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-	crossorigin="anonymous">
+	 crossorigin="anonymous">
 
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-	crossorigin="anonymous">
 
-   <!-- ajax jquery -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+	 crossorigin="anonymous">
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-   
-   <!-- mano css ir js -->
-   <link rel="stylesheet" type="text/css" href="css/index.css">
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-   crossorigin="anonymous"></script>
-   <link rel="stylesheet" type="text/js" href="js/index.js">
+
+	<!-- ajax jquery -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+	<!-- mano css ir js -->
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+	 crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<link rel="stylesheet" type="text/js" href="js/index.js">
 
 </head>
 
@@ -57,34 +62,76 @@
 
 		<div class="row">
 			<div class="col-md-4">
-				<ul class="service-ul">
-					<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-					<li class="service-list"><a class="services-link" href="#">Dog Hotel</a></li>
-					<li class="service-list"><a class="services-link" href="#">Animal Shelter</a></li>
-					<li class="service-list"><a class="services-link" href="#">Kennel</a></li>
+				<ul class="collapsible service-ul" data-collapsible="accordion">
+					<li>
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+						<div class="collapsible-header service-list">Dog hotel</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header service-list">Animal Shelter</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header service-list">Kennel</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
 				</ul>
-			</div>
-			<div class="col-md-4">
-				<ul class="service-ul">
-					<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
-					<li class="service-list"><a class="services-link" href="#">Dog Hair Salon</a></li>
-					<li class="service-list"><a class="services-link" href="#">Veterinary Services</a></li>
-					<li class="service-list"><a class="services-link" href="#">Surgery and Nursing</a></li>
-					<li class="service-list"><a class="services-link" href="#">Clipping and Sterilization</a></li>
-				</ul>
-			</div>
-			<div class="col-md-4">
-				<ul class="service-ul">
-					<span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
-					<li class="service-list"><a class="services-link" href="#">Animals Training</a></li>
-					<li class="service-list"><a class="services-link" href="#">Preparation For Exhibitions</a></li>
-					<li class="service-list">
-						<a class="services-link href=" # ">Origin Documents Issuance</a></li>
-					</ul>
-				</div>
 			</div>
 
+			<div class="col-md-4">
+				<ul class="collapsible service-ul" data-collapsible="accordion">
+					<li>
+						<span class="glyphicon glyphicon-scissors" aria-hidden="true"></span>
+						<div class="collapsible-header service-list">Dog hair salon</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header service-list">Veterinary Services</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header service-list">Surgery and Nursing</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header service-list">Clipping and Sterilization</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+				</ul>
+			</div>
+
+
+			<div class="col-md-4">
+				<ul class="collapsible service-ul" data-collapsible="accordion">
+					<li>
+						<span class="glyphicon glyphicon-certificate" aria-hidden="true"></span>
+						<div class="collapsible-header service-list">Animals Training</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header service-list">Preparation For Exhibitions</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+					<li>
+						<div class="collapsible-header service-list">Origin Documents Issuance</div>
+						<div class="collapsible-body"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem natus non, dicta ipsa cum voluptates facilis aliquam!
+								Voluptate provident, esse, quod modi saepe suscipit nemo, deleniti tempora praesentium harum corporis!</span></div>
+					</li>
+				</ul>
+			</div>
 		</div>
+
+	</div>
 	</div>
 	</div>
 
