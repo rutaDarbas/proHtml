@@ -460,10 +460,6 @@ button {
   background-image: none;
 }
 
-.my-btn:hover {
-  background-color: #663429;
-}
-
 .animal-name-h3 {
   color: #663429;
   text-align: center;
@@ -518,11 +514,11 @@ text-shadow: none;
 
 .btn:hover {
    background-color: #456634;
+   padding-left: 25px;
+   padding-right: 25px;
+   color: #E8D600;
+   font-size: 20px;
 }
-  .btn:visited {
-    background-color: #663429;
-  }
-
 
 .list-inline {
   padding-bottom: 3%;
