@@ -1,7 +1,4 @@
-$('.collapsible').collapsible('open', 0);
 
-  $('.collapsible').collapsible('close', 0);
-
-  $('.collapsible').collapsible('destroy');
-
-   
+console.log("Hello world");
+console.warn("Warning");
+console.error("error");

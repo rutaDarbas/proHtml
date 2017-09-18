@@ -33,6 +33,7 @@ html, body {
 
 .navigation-links:hover {
   color: #456634;
+  
 }
 .logo {
   display: block;
@@ -406,6 +407,7 @@ color: #EBE5B4;
 
 .collapsible-header {
   font-size: 27px;
+  cursor: pointer;
 }
 .collapsible-body {
   font-size: 17px;
@@ -514,10 +516,7 @@ text-shadow: none;
 
 .btn:hover {
    background-color: #456634;
-   padding-left: 25px;
-   padding-right: 25px;
    color: #E8D600;
-   font-size: 20px;
 }
 
 .list-inline {
@@ -596,7 +595,7 @@ margin: auto;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   color: #EBE5B4; 
-left: 45%;
+  left: 45%;
 }
 
 .carousel-indicators {
@@ -604,7 +603,22 @@ left: 45%;
   margin-top: 10px;
   border-radius: 0;
   border: 0;
- 
+}
+
+
+element.style {
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #456634;
+    border: 1px solid #fff;
+    border-radius: 10px;
 }
 
 .right, .left {
