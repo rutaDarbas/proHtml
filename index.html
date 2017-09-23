@@ -12,6 +12,8 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
 	crossorigin="anonymous">
 
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
    <!-- ajax jquery -->
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -56,33 +58,15 @@
 							<p class="home-paragraph">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
 								in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								<!-- <div class="numbers">
-									<ul>
-										<li>1</li>
-										<li>2</li>
-										<li>3</li>
-										<li>4</li>
-										<li>5</li>
-									</ul>
-									<p>Paragraph</p>
-								</div> -->
 								
-								<!-- <script>
+								  <!-- <script>
 								$(document).ready(function() {
-									$(window).resize( function(){
+									 $('div');
 
-										alert( $(this).width() );
-
-
-
-									}); //close
-
-
-								
-
+										alert(divs.length);
 
 								}); /*close the ready document*/
-								</script>  -->
+								</script>    -->
 					</div>
 				</div>
 			</div>
@@ -99,9 +83,6 @@
 							</a>
 						<h4 class="home-h4">How to choose the "right" dog for yourself?</h4>
 						<button type="button" class="btn my-btn">Read more</button>
-					<script>
-						// $(".btn:parent").css("background-color","yellow");
-					</script>
 					</div>
 
 					<div class="col-xs-12 col-md-4">
@@ -122,6 +103,21 @@
 				</div>
 			</div>
 		</div>
+
+		<script>
+			$(function() {
+				$('.my-btn').on('click', function() {
+					var animationName = 'animated bounce';
+					var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+					$('.my-btn').addClass(animationName).one(animationEnd, function() {
+						$(this).removeClass(animationName);
+					});
+
+
+				});
+			});
+		
+		</script>
 
 		<footer class="page-footer blue center-on-small-only">
 			<!--Footer Links-->
